@@ -1,0 +1,74 @@
+
+.navbar{
+width: 100%;
+text-align: center;
+background-color: black; 
+overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+}
+
+.navbar a{
+color: white;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+}
+
+.navbar a:hover {
+    text-decoration:none;
+    background-color: lightblue;
+ }
+
+
+.post img{
+width: 100%;
+text-align: center;
+}
+
+
+.post p{
+    padding: 30px;
+}
+
+#myBtn{
+    text-align: center;
+}
+
+
+.mezzo{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    margin: -10px;
+}
+
+.ora{
+    float: left!important;
+}
+
+
+.nome{
+    float: right!important;
+}
+
+
+@media screen and (max-width: 500px ) {
+    #fetch {
+        flex-direction: column !important;
+        padding: 20px !important;
+        text-align: center !important; 
+    }
+}
+
+#more {
+   display: none;
+}
